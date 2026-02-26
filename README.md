@@ -11,7 +11,7 @@ La page comprend trois sections principales :
 - Phrases d'accroche pour donner envie
 - Deux boutons d'appel à l'action vers les débouchés et les portraits
 
-### 2. **Débouchés Professionnels**
+### 2. **Débouchés Master**
 - 6 débouchés avec icônes et descriptions
 - Cartes interactives avec effet au survol
 - Animations au scroll
@@ -68,6 +68,14 @@ Dans `index.html`, section "PORTRAITS", modifier chaque `.portrait-card` :
     </div>
 </div>
 ```
+
+Pour associer un PDF à chaque portrait :
+
+- Créez un dossier `pdfs/` à la racine du projet.
+- Nommez vos fichiers `portrait1.pdf`, `portrait2.pdf`, etc. (correspondant à l'ordre des cartes) ou mettez à jour les liens dans `index.html`.
+- Les liens s'ouvrent dans un nouvel onglet quand on clique sur la carte.
+
+Exemple : placez `pdfs/portrait1.pdf` pour la première carte.
 
 ## 📝 Fichiers
 
