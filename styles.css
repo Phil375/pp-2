@@ -324,10 +324,15 @@ p {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(1.1); /* slight zoom */
-    width: 110%;
-    height: 110%;
+    transform: translate(-50%, -50%) scale(1.2); /* increase zoom slightly */
+    width: 120%;
+    height: 120%;
     object-fit: cover; /* fill container, crop if needed */
+}
+
+/* remove background gradient when an actual image is present */
+.portrait-image.has-image {
+    background: none;
 }
 
 .placeholder-text {
