@@ -330,6 +330,17 @@ p {
     object-fit: cover; /* fill container, crop if needed */
 }
 
+/* ensure images added later fill the frame identically to portrait1 */
+.portrait-image.has-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* no extra zoom */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* remove background gradient when an actual image is present */
 .portrait-image.has-image {
     background: none;
